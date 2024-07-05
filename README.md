@@ -4,11 +4,11 @@ This is the repository that contains source code for the [TrajPrompt](https://gi
 
 If you find TrajPrompt useful for your work please cite:
 ```
-@article{taso2024trajprompt
-  author    = {Li-Wu Tsao and Hao-Tang Tsui and Yu Rou Tuan and Pei-Chi Chen and Kuan-Lin Wang and Jhih-Ciang Wu and Hong-Han Shuai and Wen-Huang Cheng},
-  title     = {TrajPrompt: Aligning Color Trajectory with Vision-Language Representations},
-  journal   = {ECCV},
-  year      = {2024},
+@inproceedings{Tsao2024trajPrompt,
+  title={TrajPrompt: Aligning Color Trajectory with Vision-Language Representations},
+  author={Tsao, Li-Wu and Tsui, Hao-Tang and Tuan, Yu-Rou and Chen, Pei-Chi and Wang, Kuan-Lin and  Wu, Jhih-Ciang and Shuai, Hong-Han and Cheng, Wen-Huang},
+  booktitle=ECCV,
+  year={2024}
 }
 ```
 
