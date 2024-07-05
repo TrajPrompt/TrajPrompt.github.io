@@ -7,7 +7,7 @@ If you find TrajPrompt useful for your work please cite:
 @inproceedings{Tsao2024trajPrompt,
   title={TrajPrompt: Aligning Color Trajectory with Vision-Language Representations},
   author={Tsao, Li-Wu and Tsui, Hao-Tang and Tuan, Yu-Rou and Chen, Pei-Chi and Wang, Kuan-Lin and  Wu, Jhih-Ciang and Shuai, Hong-Han and Cheng, Wen-Huang},
-  booktitle=ECCV,
+  booktitle={ECCV},
   year={2024}
 }
 ```
