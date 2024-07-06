@@ -8,6 +8,10 @@ body {
     color: #000;
 }
 
+.footer {
+  padding-bottom: 24px;
+}
+
 .link-block a {
     margin-top: 5px;
     margin-bottom: 5px;
