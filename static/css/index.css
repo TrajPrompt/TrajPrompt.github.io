@@ -159,3 +159,19 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+td:nth-child(7), th[colspan]:nth-child(2), th:nth-child(6) {
+  border-right: 1px solid rgb(200, 200, 200) !important;
+}
+
+th[colspan]{
+  text-align: center !important; /* Center align text in header cells */
+}
+th[rowspan] {
+  vertical-align: middle !important; /* Center align text vertically in header cells with rowspan */
+}
+
+th, td {
+  text-align: right !important; /* Center align text in header cells */
+}
+

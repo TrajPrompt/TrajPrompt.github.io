@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
-  <meta name="description"
-        content="TrajPrompt: Aligning Color Trajectory with Vision-Language Representations.">
+  <meta name="description" content="TrajPrompt: Aligning Color Trajectory with Vision-Language Representations.">
   <meta name="keywords" content="TrajPrompt, Trajectory Prediction">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TrajPrompt: Aligning Color Trajectory with Vision-Language Representations</title>
-
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
   <script>
@@ -22,15 +21,13 @@
     gtag('config', 'G-PYVRSFMDRL');
   </script>
 
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
   <link rel="icon" href="./static/images/favicon.png">
 
@@ -42,71 +39,72 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-  </div>
-</nav>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+    </div>
+  </nav>
 
 
-<section class="hero">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">[ECCV 2024] TrajPrompt:</h1>
-          <h1 class="title is-3 publication-title">Aligning Color Trajectory with Vision-Language Representations </h1>
-
-            
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="https://github.com/Sigta678">Li-Wu Tsao</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://github.com/henrytsui000">Hao-Tang Tsui</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://github.com/LucyTuan">Yu Rou Tuan</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a>Pei-Chi Chen</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a>Kuan-Lin Wang</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://jhih-ciang.github.io">Jhih-Ciang Wu</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://basiclab.lab.nycu.edu.tw">Hong-Han Shuai</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://www.csie.ntu.edu.tw/~wenhuang">Wen-Huang Cheng</a><sup>2</sup>
-            </span>
-          </div>
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>National Yang Ming Chiao Tung University,</span>
-            <span class="author-block"><sup>2</sup>National Taiwan University</span>
-          </div>
-
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
           <div class="column has-text-centered">
-            <div class="publication-links">
-              <!-- PDF Link. -->
-              <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Paper [WIP]</span>
-                </a>
+            <h1 class="title is-1 publication-title">[ECCV 2024] TrajPrompt:</h1>
+            <h1 class="title is-3 publication-title">Aligning Color Trajectory with Vision-Language Representations
+            </h1>
+
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://github.com/Sigta678">Li-Wu Tsao</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://github.com/henrytsui000">Hao-Tang Tsui</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://github.com/LucyTuan">Yu Rou Tuan</a><sup>1</sup>,
               </span>
-              <!-- <span class="link-block">
+              <span class="author-block">
+                <a>Pei-Chi Chen</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a>Kuan-Lin Wang</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://jhih-ciang.github.io">Jhih-Ciang Wu</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://basiclab.lab.nycu.edu.tw">Hong-Han Shuai</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.csie.ntu.edu.tw/~wenhuang">Wen-Huang Cheng</a><sup>2</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>National Yang Ming Chiao Tung University,</span>
+              <span class="author-block"><sup>2</sup>National Taiwan University</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper [WIP]</span>
+                  </a>
+                </span>
+                <!-- <span class="link-block">
                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -115,175 +113,256 @@
                   <span>arXiv [WIP]</span>
                 </a>
               </span> -->
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
+                <!-- Video Link. -->
+                <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
                       <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video [WIP]</span>
-                </a>
-              </span>
-              <!-- Code Link. -->
-              <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code [WIP]</span>
+                    </span>
+                    <span>Video [WIP]</span>
                   </a>
-              </span>
-              
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code [WIP]</span>
+                  </a>
+                </span>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <!-- <video id="teaser" autoplay muted loop playsinline height="100%"> -->
+        <!-- <source src="../Inference.gif" type="video/mp4"> -->
+        <img src="./static/gif/Inference.gif" alt="this slowpoke moves" />
+
+        <!-- </video> -->
+        <h2 class="subtitle has-text-centered">
+          TrajPrompt's effectiveness via outperforming the state-of-the-art trajectory predictors by a significant
+          margin.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Cross-modal learning has shown promising potential to overcome the limitations of single-modality tasks.
+              However, without a proper design of representation alignment between different data sources, the external
+              modality has no way to exhibit its value.
+            </p>
+            <p>
+              We find that recent trajectory prediction approaches use Bird's-Eye-View (BEV) scene as additional source,
+              but do not significantly improve the performance compared to the single-source strategies.
+              This indicates that the representation of BEV scene and trajectory is not effectively combined.
+            </p>
+            <p>
+              To overcome this problem, we propose <i>TrajPrompt</i>, a prompt-based approach that seamlessly
+              incorporates trajectory representation into the vision-language framework, i.e. CLIP, for BEV scene
+              understanding and future forecasting.
+              We discover that CLIP can attend to the local area of BEV scene by utilizing our innovative design of text
+              prompt and colored lines. Comprehensive results demonstrate TrajPrompt's effectiveness via outperforming
+              the state-of-the-art trajectory predictors by a significant margin (over 35% improvement for ADE and FDE
+              metrics on SDD and DroneCrowd dataset), using fewer learnable parameters than the previous trajectory
+              modeling approaches with scene information included.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-11">
+          <h2 class="title is-3">Training Progress</h2>
+          <div class="publication-video">
+            <p>
+              Full
+            </p>
+            <img src="./static/gif/TrainFull.gif" alt="this slowpoke moves" width="830" />
+          </div>
+        </div>
+      </div>
+      <!--/ Paper video. -->
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <div class="columns is-centered">
+
+        <!-- Visual Effects. -->
+        <div class="column">
+          <div class="content">
+            <h2 class="title is-3">Trajectory Modeling</h2>
+            <p>
+              The basic idea of text generation is to compare the correctness of semantics on word embeddings, which has
+              a pre-defined dictionary to collect all the possibilities of word tokens.
+            </p>
+            <img src="./static/gif/TrainTraj.gif" alt="this slowpoke moves" />
+          </div>
+        </div>
+        <!--/ Visual Effects. -->
+
+        <!-- Matting. -->
+        <div class="column">
+          <h2 class="title is-3">Clip Alignment</h2>
+          <div class="columns is-centered">
+            <div class="column content">
+              <p>
+                Alignment loss provides the detailed surrounding clues for localizing the trajectory and realizing its
+                nearby environments.
+              </p>
+              <img src="./static/gif/TrainAlign.gif" alt="this slowpoke moves" />
             </div>
 
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+      <!--/ Matting. -->
 
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- <video id="teaser" autoplay muted loop playsinline height="100%"> -->
-        <!-- <source src="../Inference.gif" type="video/mp4"> -->
-        <img src="./static/gif/Inference.gif" alt="this slowpoke moves" />
+      <!-- Animation. -->
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Comparisions Table</h2>
 
-      <!-- </video> -->
-      <h2 class="subtitle has-text-centered">
-        TrajPrompt's effectiveness via outperforming the state-of-the-art trajectory predictors by a significant margin.
-      </h2>
-    </div>
-  </div>
-</section>
+          <!-- Interpolating. -->
+          <table class="table">
+            <thead>
+              <tr>
+                <th rowspan="3">Method</th>
+                <th colspan="6">Models without image information</th>
+                <th colspan="4">Models with image information</th>
+              </tr>
+              <tr>
+                <th>Social-GAN</th>
+                <th>PECNet</th>
+                <th>NSP-SFM</th>
+                <th>Leapfrog</th>
+                <th>FlowChain</th>
+                <th>TUTR</th>
+                <th>SOPHIE</th>
+                <th>Y-net</th>
+                <th>TDOR</th>
+                <th><strong>TrajPrompt (ours)</strong></th>
+              </tr>
+              <tr>
+                <th style="color:rgb(200, 200, 200); font-size: small;">CVPR'18</th>
+                <th style="color:rgb(200, 200, 200); font-size: small;">ECCV'20</th>
+                <th style="color:rgb(200, 200, 200); font-size: small;">ECCV'22</th>
+                <th style="color:rgb(200, 200, 200); font-size: small;">CVPR'23</th>
+                <th style="color:rgb(200, 200, 200); font-size: small;">ICCV'23</th>
+                <th style="color:rgb(200, 200, 200); font-size: small;">ICCV'23</th>
+                <th style="color:rgb(200, 200, 200); font-size: small;">CVPR'19</th>
+                <th style="color:rgb(200, 200, 200); font-size: small;">ICCV'21</th>
+                <th style="color:rgb(200, 200, 200); font-size: small;">CVPR'22</th>
+                <th style="color:rgb(200, 200, 200); font-size: small;">ECCV'24</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ADE ↓</td>
+                <td>27.33</td>
+                <td>9.96</td>
+                <td><u>6.52</u></td>
+                <td>8.48</td>
+                <td>9.93</td>
+                <td>7.76</td>
+                <td>16.27</td>
+                <td>7.85</td>
+                <td>6.77</td>
+                <td><span style="color:rgb(255, 63, 63); font-size:small;">(↧42%)</span><strong> 3.78</strong></td>
+              </tr>
+              <tr>
+                <td>FDE ↓</td>
+                <td>41.44</td>
+                <td>15.88</td>
+                <td>10.61</td>
+                <td>11.66</td>
+                <td>17.17</td>
+                <td>12.69</td>
+                <td>29.38</td>
+                <td>11.85</td>
+                <td><u>10.46</u></td>
+                <td><span style="color:rgb(255, 63, 63); font-size:small;">(↧35%)</span><strong> 6.81</strong></td>
+              </tr>
+              <tr>
+                <td>Params(M)</td>
+                <td>1.75</td>
+                <td>2.10</td>
+                <td>0.64</td>
+                <td>11.20</td>
+                <td>1.63</td>
+                <td><strong>0.11</strong></td>
+                <td>26.23</td>
+                <td>1.64</td>
+                <td>0.85</td>
+                <td><u>0.17</u></td>
+              </tr>
+            </tbody>
+          </table>
 
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Cross-modal learning has shown promising potential to overcome the limitations of single-modality tasks. 
-            However, without a proper design of representation alignment between different data sources, the external modality has no way to exhibit its value. 
-          </p>
-          <p>
-            We find that recent trajectory prediction approaches use Bird's-Eye-View (BEV) scene as additional source, but do not significantly improve the performance compared to the single-source strategies. 
-            This indicates that the representation of BEV scene and trajectory is not effectively combined. 
-          </p>
-          <p>         
-            To overcome this problem, we propose <i>TrajPrompt</i>, a prompt-based approach that seamlessly incorporates trajectory representation into the vision-language framework, i.e. CLIP, for BEV scene understanding and future forecasting. 
-            We discover that CLIP can attend to the local area of BEV scene by utilizing our innovative design of text prompt and colored lines. Comprehensive results demonstrate TrajPrompt's effectiveness via outperforming the state-of-the-art trajectory predictors by a significant margin (over 35% improvement for ADE and FDE metrics on SDD and DroneCrowd dataset), using fewer learnable parameters than the previous trajectory modeling approaches with scene information included.
-          </p>
-          </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
 
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-11">
-        <h2 class="title is-3">Training Progress</h2>
-        <div class="publication-video">
-          <p>
-            Full
-          </p>
-          <img src="./static/gif/TrainFull.gif" alt="this slowpoke moves" width="830"/>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
-  </div>
-</section>
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <div class="columns is-centered">
-
-      <!-- Visual Effects. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Trajectory Modeling</h2>
-          <p>
-            The basic idea of text generation is to compare the correctness of semantics on word embeddings, which has a pre-defined dictionary to collect all the possibilities of word tokens.
-          </p>
-          <img src="./static/gif/TrainTraj.gif" alt="this slowpoke moves"/>
-        </div>
-      </div>
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
-      <div class="column">
-        <h2 class="title is-3">Clip Alignment</h2>
-        <div class="columns is-centered">
-          <div class="column content">
+          <div class="content has-text-justified">
             <p>
-              Alignment loss provides the detailed surrounding clues for localizing the trajectory and realizing its nearby environments.
+              Performance comparisons on SDD dataset (Evaluated in pixel). All the results
+              are evaluated using 20 samplings, and Params stands for the amount of trainable
+              parameters. The red arrows show the improvement of TrajPrompt compared to the
+              best among SOTAs (highlighted as underline).
             </p>
-            <img src="./static/gif/TrainAlign.gif" alt="this slowpoke moves" />
           </div>
 
+          <br />
+
+          <!-- Re-rendering. -->
+          <h3 class="title is-4">Visualization</h3>
+          <div class="content has-text-justified">
+            <p>
+              Work In Progress...
+            </p>
+          </div>
+          <div class="content has-text-centered">
+            <video id="replay-video" controls muted preload playsinline width="75%">
+              <source src="./static/gif/TrainAlign.gif" type="video/mp4">
+            </video>
+          </div>
+          <!--/ Re-rendering. -->
+
         </div>
       </div>
-    </div>
-    <!--/ Matting. -->
-
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Experiment</h2>
-
-        <!-- Interpolating. -->
-        <h3 class="title is-4">Table</h3>
-        <div class="content has-text-justified">
-          <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
-          </p>
-        </div>
-        
-        <br/>
-
-        <!-- Re-rendering. -->
-        <h3 class="title is-4">Visualization</h3>
-        <div class="content has-text-justified">
-          <p>
-            Work In Progress...
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/gif/TrainAlign.gif"
-                    type="video/mp4">
-          </video>
-        </div>
-        <!--/ Re-rendering. -->
-
-      </div>
-    </div>
-    <!--/ Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Video</h2>
-        <div class="content has-text-centered">
-          <p>
-            Work In Progress...
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <!-- <video id="replay-video"
+      <!--/ Animation. -->
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Demo Example</h2>
+          <div class="content has-text-centered">
+            <p>
+              Work In Progress...
+            </p>
+          </div>
+          <div class="content has-text-centered">
+            <!-- <video id="replay-video"
                  controls
                  muted
                  preload
@@ -291,16 +370,16 @@
                  width="75%">
             <source src="./static/gif/traj_heat.gif"
                     type="video/mp4"> -->
-          <img src="./static/gif/traj_heat.gif" alt="this slowpoke moves" />
-          </video>
+            <img src="./static/gif/traj_heat.gif" alt="this slowpoke moves" />
+            </video>
+          </div>
+          <!--/ Re-rendering. -->
+
         </div>
-        <!--/ Re-rendering. -->
-
       </div>
-    </div>
 
-    <!-- Concurrent Work. -->
-    <!-- <div class="columns is-centered"> -->
+      <!-- Concurrent Work. -->
+      <!-- <div class="columns is-centered"> -->
       <!-- <div class="column is-full-width">
         <h2 class="title is-3">Related Links</h2>
 
@@ -324,53 +403,54 @@
         </div>
       </div>
     </div> -->
-    <!--/ Concurrent Work. -->
+      <!--/ Concurrent Work. -->
 
-  </div>
-</section>
+    </div>
+  </section>
 
 
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@inproceedings{tsao2024trajprompt
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@inproceedings{tsao2024trajprompt
   author    = {Tsao, Li-Wu and Tsui, Hao-Tang and Tuan, Yu-Rou and Chen, Pei-Chi and Wang, Kuan-Lin and  Wu, Jhih-Ciang and Shuai, Hong-Han and Cheng, Wen-Huang},
   title     = {TrajPrompt: Aligning Color Trajectory with Vision-Language Representations},
   journal   = {ECCV},
   year      = {2024},
 }</code></pre>
-  </div>
-</section>
-
-
-<footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-      <a class="icon-link"
-         href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <i class="fas fa-file-pdf"></i>
-      </a>
-      <a class="icon-link" href="https://github.com/TrajPrompt" class="external-link" disabled>
-        <i class="fab fa-github"></i>
-      </a>
     </div>
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p class="footer-paragraph">
-            This page was adopted from the <a
-            href="https://github.com/nerfies/nerfies.github.io">Nerfies project page</a>. 
-            <br>
-            <br>
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer.
-            This website is licensed under a <a rel="license"
-            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.
-          </p>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+          <i class="fas fa-file-pdf"></i>
+        </a>
+        <a class="icon-link" href="https://github.com/TrajPrompt" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p class="footer-paragraph">
+              This page was adopted from the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies project
+                page</a>.
+              <br>
+              <br>
+              You are free to borrow the of this website, we just ask that you link back to this page in the footer.
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
+                International License.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
 </body>
+
 </html>
